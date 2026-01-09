@@ -16,7 +16,7 @@ import java.util.ArrayList;
  */
 public class Bank {
 
-	private static ArrayList<BankAccount> Accounts;
+	private ArrayList<BankAccount> Accounts;
 	private final int initialSize = 1000;
 	private boolean success;
 	// private double maximumBalance;
@@ -188,8 +188,7 @@ public class Bank {
 		return (ArrayList<BankAccount>) Accounts.clone();
 	}
 
-	public boolean registerAccount(int fromAccountNumber, int fromRoutingNumber, int destinationBank,
-			int toAccountNumber) {
+	public boolean registerAccount() {
 		return true;
 	};
 
